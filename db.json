@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "brand": "Nike"
+    },
+    {
+      "id": 2,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "brand": "JBL"
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "brand": "Samsung"
+    },
+    {
+      "id": 4,
+      "name": "Backpack",
+      "category": "Accessories",
+      "brand": "Herschel"
+    },
+    {
+      "id": 5,
+      "name": "Water Bottle",
+      "category": "Fitness",
+      "brand": "Hydro Flask"
+    },
+    {
+      "id": 6,
+      "name": "Earbuds",
+      "category": "Electronics",
+      "brand": "Samsung"
+    }
+  ]
+}

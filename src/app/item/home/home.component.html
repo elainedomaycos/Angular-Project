@@ -1,0 +1,25 @@
+
+<div class="container" style="margin-top: 11px;">
+    <table class="table table-success">
+        <thead>
+            <tr class="bg-primary">
+                <th scope="col">ItemId</th>
+                <th scope="col">Name</th>
+                <th scope="col">Category</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let itm of items">
+                <td scop="row">{{itm.id}}</td>
+                <td>{{itm.name}}</td>
+                <td>{{itm.category}}</td>
+                <td>{{itm.brand}}</td>
+                <td><button class="btn btn-primary" [routerLink]="['/item/edit',itm.id]">Edit</button></td>
+                <td><button class="btn btn-danger" (click)="delete(itm.id)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
